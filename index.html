@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <h1 id="title">Lorem, ipsum dolor.</h1>
     <p id="description">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
-      aliquid!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+        aliquid!
     </p>
     <form action="" id="survey-form">
-      <input type="text" id="name" placeholder="Enter Name" />
-      <input type="email" name="" id="email" placeholder="Enter Email" />
-      <input
-        type="number"
-        id="number"
-        min="8"
-        max="10"
-        placeholder="Enter Number"
-      />
-      <label for="" id="name-label"></label>
-      <label for="" id="email-label"></label>
-      <label for="" id="number-label"></label>
-      <select name="" id="dropdown"></select>
-      <input type="radio" name="Choose" id="" value="first" />
-      <input type="radio" name="Choose" id="" value="second" />
+        <input type="text" id="name" placeholder="Enter Name" required />
+        <input type="email" name="" id="email" placeholder="Enter Email" required />
+        <input type="number" id="number" min="8" max="10" placeholder="Enter Number" />
+        <label for="" id="name-label">Name</label>
+        <label for="" id="email-label">Email</label>
+        <label for="" id="number-label">Number</label>
+        <select name="" id="dropdown">
+            <option value="">Tall</option>
+            <option value="">Short</option>
+        </select>
+        <input type="radio" name="Choose" id="" value="first" />
+        <input type="radio" name="Choose" id="" value="second" />
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="checkbox" value="1">
+        <input type="checkbox" value="1">
+        <button id="submit"></button>
     </form>
-  </body>
+</body>
+
 </html>
